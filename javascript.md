@@ -11,7 +11,7 @@
         
         
         
-**Pour supprimer l'élément unique d'un array de paires (avec le XOR) : **
+**Pour supprimer l'élément unique d'un array de paires (avec le XOR) :**
         
         const solo = arr => arr.reduce((a, b) => a ^ b);
         
