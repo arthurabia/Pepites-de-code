@@ -6,3 +6,4 @@ Pour supprimer le plus petit élément d'un array de nombres :
           return arr.filter((x,y) => y !== (arr.indexOf(Math.min(...arr))));
         }
 
+[Retour à l'accueil](readme.md)
