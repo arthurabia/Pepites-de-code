@@ -5,4 +5,4 @@ Des pépites de code rencontrées sur les internets, pour des problèmes que tu 
 
 [En CSS](css.md)
 
-[En GDScript](godot.md)
+[En GDScript](gdscript.md)
