@@ -16,5 +16,11 @@
         const solo = arr => arr.reduce((a, b) => a ^ b);
         
         
+        
+**Pour transformer un nombre en tableau de nombres :**
+                
+        Array.from(String(12345), Number);
+        
+        
 
 [Retour à l'accueil](readme.md)
