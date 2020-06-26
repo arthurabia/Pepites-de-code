@@ -24,6 +24,12 @@
 
         \b\w*[\d]\w*\b
         
+             
+**Regex pour pigLatin :**     
+        
+        return str.replace(/(\w)(\w*)(\s|$)/g, "\$2\$1ay\$3")
+
+        
         
 
 [Retour à l'accueil](readme.md)
