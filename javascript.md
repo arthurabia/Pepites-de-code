@@ -28,6 +28,13 @@
 **Regex pour pigLatin :**     
         
         return str.replace(/(\w)(\w*)(\s|$)/g, "\$2\$1ay\$3")
+        
+        
+**Regex pour pigLatin :**   
+
+        let as = s.split(' ').map(s=>[...s].reduce((a,b)=>a+b.charCodeAt(0)-96,0));
+        return s.split(' ')[as.indexOf(Math.max(...as))];
+
 
         
         
