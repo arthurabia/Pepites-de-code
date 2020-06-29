@@ -42,6 +42,9 @@
 
         +true; // 1
         +false; // 0
-
+        
+ **Intégrer une variable dans une RegExp**       
+        
+        var regex = new RegExp(`\\d{${var}}`,'g')
 
 [Retour à l'accueil](readme.md)
