@@ -30,12 +30,11 @@
         return str.replace(/(\w)(\w*)(\s|$)/g, "\$2\$1ay\$3")
         
         
-**Regex pour pigLatin :**   
+**Itérer sur chaque lettre d'un mot d'une phrase : **   
 
         let as = s.split(' ').map(s=>[...s].reduce((a,b)=>a+b.charCodeAt(0)-96,0));
-        return s.split(' ')[as.indexOf(Math.max(...as))];
         
-**Créer un array de 0 à 10**   
+**Créer un array de 0 à 9 : **   
         
          let list = [...Array(10).keys()];
 
