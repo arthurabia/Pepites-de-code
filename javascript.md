@@ -30,11 +30,11 @@
         return str.replace(/(\w)(\w*)(\s|$)/g, "\$2\$1ay\$3")
         
         
-**Itérer sur chaque lettre d'un mot d'une phrase : **   
+**Itérer sur chaque lettre d'un mot d'une phrase :**   
 
         let as = s.split(' ').map(s=>[...s].reduce((a,b)=>a+b.charCodeAt(0)-96,0));
         
-**Créer un array de 0 à 9 : **   
+**Créer un array de 0 à 9 :**   
         
          let list = [...Array(10).keys()];
 
