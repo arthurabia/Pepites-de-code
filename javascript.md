@@ -38,8 +38,10 @@
         
          let list = [...Array(10).keys()];
 
+**Changer un true en 1 et false en 0 :**
 
-        
-        
+        +true; // 1
+        +false; // 0
+
 
 [Retour à l'accueil](readme.md)
