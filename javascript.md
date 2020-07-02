@@ -43,7 +43,7 @@
         +true; // 1
         +false; // 0
         
- **Intégrer une variable dans une RegExp**       
+ **Intégrer une variable dans un RegExp**       
         
         var regex = new RegExp(`\\d{${var}}`,'g')
 
