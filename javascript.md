@@ -47,4 +47,9 @@
         
         var regex = new RegExp(`\\d{${var}}`,'g')
 
+ **Checker si une IP est valide**       
+        
+        const net = require('net');
+        const isValidIP = (s) => net.isIP(s);
+
 [Retour à l'accueil](readme.md)
