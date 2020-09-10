@@ -51,5 +51,9 @@
         
         const net = require('net');
         const isValidIP = (s) => net.isIP(s);
+        
+**Dire 10 fois 'no'**
+
+        Array(10).fill('no')
 
 [Retour à l'accueil](readme.md)
